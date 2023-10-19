@@ -82,7 +82,7 @@ const movieList = [
     },
     {
         id: 4,
-        name: "PedroTech The Movie",
+        name: "FakeTech The Movie",
         year: 2035,
         isInTheaters: false,
     },
