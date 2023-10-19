@@ -2,7 +2,7 @@ const { userList, movieList } = require("../data");
 
 const resolvers = {
     Query: {
-        // ----- User Resolvers -----
+        // ====== User Resolvers ======
         users() {
             return userList;
         },
@@ -12,7 +12,7 @@ const resolvers = {
             return null;
         },
 
-        // ----- Movie Resolvers -----
+        // ====== Movie Resolvers ======
         movies: () => {
             return movieList;
         },
