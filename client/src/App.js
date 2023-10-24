@@ -1,6 +1,7 @@
 import "./App.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import DisplayData from "./components/DisplayData";
+import CreateUserForm from "./components/CreateUserForm";
 
 function App() {
     const serverUri = "http://localhost:4000/graphql"; // update based on node env
@@ -13,6 +14,7 @@ function App() {
         <ApolloProvider client={client}>
             <div className="App">
                 <h1>Welcome to the test app!</h1>
+                <CreateUserForm />
                 <DisplayData />
             </div>
             ;
